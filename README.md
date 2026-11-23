@@ -61,7 +61,7 @@ No source predictions, frozen metrics, original figures or notebook outputs are 
 - **No external validation or causal/biological interpretation.** The design does not establish calibrated risk, transportability, independent cohort uncertainty or the cause of a particular observation's width.
 - **Perturbation sensitivity:** repeated five-fold CV reuses heavily overlapping training sets; a bootstrap would answer a different question and is not presented as equivalent or necessarily larger.
 
-The complete [original README (v1.0) is preserved verbatim](protocol/README_v1_archive.md), including primary protocol decisions, exact seeds, detailed QC, figures and the prior reproducibility description. [Frozen analysis plan](protocol/analysis_plan_v1.md) · [Original scientific proposal](protocol/research_proposal.md) · [v1.1 changelog](V1_1_CHANGELOG.md).
+The [original v1.0 README](https://github.com/Paola-aguirre-ruelas/WDBC-prediction-stability/blob/v1.0.0/README.md) remains unchanged at its tagged revision. The [archived copy](protocol/README_v1_archive.md) has corrected relative links., including primary protocol decisions, exact seeds, detailed QC, figures and the prior reproducibility description. [Frozen analysis plan](protocol/analysis_plan_v1.md) · [Original scientific proposal](protocol/research_proposal.md) · [v1.1 changelog](V1_1_CHANGELOG.md).
 
 The original 2026-09-26 [notebook audit](metadata/notebook_cleanup_20260926/AUDIT.md) mentions `reproduction_evidence.zip` as audit working-copy evidence; it is **not distributed in this repository**. The audit is retained as a historical record, not represented as a currently downloadable reproduction package.
 
