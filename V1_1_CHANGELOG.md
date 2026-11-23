@@ -10,3 +10,5 @@
 6. Added three focused deterministic unit tests. New outputs are written only to `analysis/generated_v11/`.
 
 **Not included:** bootstrap, new samples, external clinical validation, changes to original figures/notebook, shortening the underlying archived methods, an expensive 50-repeat model rerun, or a public GitHub release/DOI. Proposed release is a reviewable v1.1 commit *after* checking the generated artifacts.
+
+Post-release documentation maintenance: seven relative links in the archived README were corrected. The original v1.0.0 tagged README remains unchanged.
