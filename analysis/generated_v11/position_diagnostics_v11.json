@@ -1,0 +1,91 @@
+{
+  "analysis_version": "1.1.0",
+  "status": "post_hoc_exploratory",
+  "sample_n": 569,
+  "metrics": {
+    "spearman_lr_rf_width": 0.7275218243304882,
+    "spearman_lr_width_vs_p_one_minus_p": 0.9939229212917896,
+    "spearman_rf_width_vs_p_one_minus_p": 0.9901656115935942,
+    "pearson_lr_width_vs_p_one_minus_p": 0.8013932689485233,
+    "pearson_rf_width_vs_p_one_minus_p": 0.9193402593580987,
+    "rank_residual_correlation": -0.02266715657595546
+  },
+  "central_sensitivity": [
+    {
+      "minimum_median_probability": 0.01,
+      "maximum_median_probability": 0.99,
+      "n": 149,
+      "spearman_lr_rf_width": 0.5489207328133503
+    },
+    {
+      "minimum_median_probability": 0.05,
+      "maximum_median_probability": 0.95,
+      "n": 72,
+      "spearman_lr_rf_width": 0.1926490449546595
+    },
+    {
+      "minimum_median_probability": 0.1,
+      "maximum_median_probability": 0.9,
+      "n": 54,
+      "spearman_lr_rf_width": 0.20891938250428815
+    },
+    {
+      "minimum_median_probability": 0.2,
+      "maximum_median_probability": 0.8,
+      "n": 31,
+      "spearman_lr_rf_width": 0.07500000000000001
+    }
+  ],
+  "rolling_window_sensitivity": {
+    "logistic_regression": {
+      "top10_ids_common_to_windows_31_51_71": [
+        "WDBC_038",
+        "WDBC_068",
+        "WDBC_146",
+        "WDBC_152",
+        "WDBC_190",
+        "WDBC_213",
+        "WDBC_238",
+        "WDBC_489"
+      ],
+      "top10_ids_window_51": [
+        "WDBC_038",
+        "WDBC_068",
+        "WDBC_190",
+        "WDBC_146",
+        "WDBC_152",
+        "WDBC_213",
+        "WDBC_238",
+        "WDBC_489",
+        "WDBC_157",
+        "WDBC_455"
+      ]
+    },
+    "random_forest": {
+      "top10_ids_common_to_windows_31_51_71": [
+        "WDBC_038",
+        "WDBC_191",
+        "WDBC_209",
+        "WDBC_255",
+        "WDBC_261",
+        "WDBC_275",
+        "WDBC_340",
+        "WDBC_406",
+        "WDBC_424",
+        "WDBC_471"
+      ],
+      "top10_ids_window_51": [
+        "WDBC_191",
+        "WDBC_038",
+        "WDBC_255",
+        "WDBC_275",
+        "WDBC_424",
+        "WDBC_471",
+        "WDBC_406",
+        "WDBC_261",
+        "WDBC_340",
+        "WDBC_209"
+      ]
+    }
+  }
+}

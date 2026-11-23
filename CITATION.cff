@@ -1,0 +1,15 @@
+cff-version: 1.2.0
+message: "If you use this WDBC methodological case study, please cite this repository and the original WDBC dataset."
+type: software
+title: "Beyond Aggregate Performance: Individual Prediction Stability Under Resampling in WDBC"
+authors:
+  - family-names: "Aguirre Ruelas"
+    given-names: "Paola"
+repository-code: "https://github.com/Paola-aguirre-ruelas/WDBC-prediction-stability"
+version: 1.1.0
+license: MIT
+keywords:
+  - clinical prediction
+  - individual prediction stability
+  - repeated cross-validation
+  - reproducibility
